@@ -1,0 +1,125 @@
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc laserCon.ucf -p xc3s100e-cp132-5 laser_surgery_sys.ngc laser_surgery_sys.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o laser_surgery_sys_map.ncd laser_surgery_sys.ngd laser_surgery_sys.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc laserCon.ucf -p xc3s100e-cp132-5 laser_surgery_sys.ngc laser_surgery_sys.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o laser_surgery_sys_map.ncd laser_surgery_sys.ngd laser_surgery_sys.pcf 
+par -w -intstyle ise -ol high -t 1 laser_surgery_sys_map.ncd laser_surgery_sys.ncd laser_surgery_sys.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml laser_surgery_sys.twx laser_surgery_sys.ncd -o laser_surgery_sys.twr laser_surgery_sys.pcf -ucf laserCon.ucf 
+bitgen -intstyle ise -f laser_surgery_sys.ut laser_surgery_sys.ncd 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc laserCon.ucf -p xc3s100e-cp132-5 laser_surgery_sys.ngc laser_surgery_sys.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o laser_surgery_sys_map.ncd laser_surgery_sys.ngd laser_surgery_sys.pcf 
+par -w -intstyle ise -ol high -t 1 laser_surgery_sys_map.ncd laser_surgery_sys.ncd laser_surgery_sys.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml laser_surgery_sys.twx laser_surgery_sys.ncd -o laser_surgery_sys.twr laser_surgery_sys.pcf -ucf laserCon.ucf 
+bitgen -intstyle ise -f laser_surgery_sys.ut laser_surgery_sys.ncd 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc laserCon.ucf -p xc3s100e-cp132-5 laser_surgery_sys.ngc laser_surgery_sys.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o laser_surgery_sys_map.ncd laser_surgery_sys.ngd laser_surgery_sys.pcf 
+par -w -intstyle ise -ol high -t 1 laser_surgery_sys_map.ncd laser_surgery_sys.ncd laser_surgery_sys.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml laser_surgery_sys.twx laser_surgery_sys.ncd -o laser_surgery_sys.twr laser_surgery_sys.pcf -ucf laserCon.ucf 
+bitgen -intstyle ise -f laser_surgery_sys.ut laser_surgery_sys.ncd 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc laserCon.ucf -p xc3s100e-cp132-5 laser_surgery_sys.ngc laser_surgery_sys.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o laser_surgery_sys_map.ncd laser_surgery_sys.ngd laser_surgery_sys.pcf 
+par -w -intstyle ise -ol high -t 1 laser_surgery_sys_map.ncd laser_surgery_sys.ncd laser_surgery_sys.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml laser_surgery_sys.twx laser_surgery_sys.ncd -o laser_surgery_sys.twr laser_surgery_sys.pcf -ucf laserCon.ucf 
+bitgen -intstyle ise -f laser_surgery_sys.ut laser_surgery_sys.ncd 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc laserCon.ucf -p xc3s100e-cp132-5 laser_surgery_sys.ngc laser_surgery_sys.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o laser_surgery_sys_map.ncd laser_surgery_sys.ngd laser_surgery_sys.pcf 
+par -w -intstyle ise -ol high -t 1 laser_surgery_sys_map.ncd laser_surgery_sys.ncd laser_surgery_sys.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml laser_surgery_sys.twx laser_surgery_sys.ncd -o laser_surgery_sys.twr laser_surgery_sys.pcf -ucf laserCon.ucf 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc laserCon.ucf -p xc3s100e-cp132-5 laser_surgery_sys.ngc laser_surgery_sys.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o laser_surgery_sys_map.ncd laser_surgery_sys.ngd laser_surgery_sys.pcf 
+par -w -intstyle ise -ol high -t 1 laser_surgery_sys_map.ncd laser_surgery_sys.ncd laser_surgery_sys.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml laser_surgery_sys.twx laser_surgery_sys.ncd -o laser_surgery_sys.twr laser_surgery_sys.pcf -ucf laserCon.ucf 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc laserCon.ucf -p xc3s100e-cp132-5 laser_surgery_sys.ngc laser_surgery_sys.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o laser_surgery_sys_map.ncd laser_surgery_sys.ngd laser_surgery_sys.pcf 
+par -w -intstyle ise -ol high -t 1 laser_surgery_sys_map.ncd laser_surgery_sys.ncd laser_surgery_sys.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml laser_surgery_sys.twx laser_surgery_sys.ncd -o laser_surgery_sys.twr laser_surgery_sys.pcf -ucf laserCon.ucf 
+bitgen -intstyle ise -f laser_surgery_sys.ut laser_surgery_sys.ncd 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc laserCon.ucf -p xc3s100e-cp132-5 laser_surgery_sys.ngc laser_surgery_sys.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o laser_surgery_sys_map.ncd laser_surgery_sys.ngd laser_surgery_sys.pcf 
+par -w -intstyle ise -ol high -t 1 laser_surgery_sys_map.ncd laser_surgery_sys.ncd laser_surgery_sys.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml laser_surgery_sys.twx laser_surgery_sys.ncd -o laser_surgery_sys.twr laser_surgery_sys.pcf -ucf laserCon.ucf 
+bitgen -intstyle ise -f laser_surgery_sys.ut laser_surgery_sys.ncd 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc laserCon.ucf -p xc3s100e-cp132-5 laser_surgery_sys.ngc laser_surgery_sys.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o laser_surgery_sys_map.ncd laser_surgery_sys.ngd laser_surgery_sys.pcf 
+par -w -intstyle ise -ol high -t 1 laser_surgery_sys_map.ncd laser_surgery_sys.ncd laser_surgery_sys.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml laser_surgery_sys.twx laser_surgery_sys.ncd -o laser_surgery_sys.twr laser_surgery_sys.pcf -ucf laserCon.ucf 
+bitgen -intstyle ise -f laser_surgery_sys.ut laser_surgery_sys.ncd 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc laserCon.ucf -p xc3s100e-cp132-5 laser_surgery_sys.ngc laser_surgery_sys.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o laser_surgery_sys_map.ncd laser_surgery_sys.ngd laser_surgery_sys.pcf 
+par -w -intstyle ise -ol high -t 1 laser_surgery_sys_map.ncd laser_surgery_sys.ncd laser_surgery_sys.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml laser_surgery_sys.twx laser_surgery_sys.ncd -o laser_surgery_sys.twr laser_surgery_sys.pcf -ucf laserCon.ucf 
+bitgen -intstyle ise -f laser_surgery_sys.ut laser_surgery_sys.ncd 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc laserCon.ucf -p xc3s100e-cp132-5 laser_surgery_sys.ngc laser_surgery_sys.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o laser_surgery_sys_map.ncd laser_surgery_sys.ngd laser_surgery_sys.pcf 
+par -w -intstyle ise -ol high -t 1 laser_surgery_sys_map.ncd laser_surgery_sys.ncd laser_surgery_sys.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml laser_surgery_sys.twx laser_surgery_sys.ncd -o laser_surgery_sys.twr laser_surgery_sys.pcf -ucf laserCon.ucf 
+bitgen -intstyle ise -f laser_surgery_sys.ut laser_surgery_sys.ncd 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc laserCon.ucf -p xc3s100e-cp132-5 laser_surgery_sys.ngc laser_surgery_sys.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o laser_surgery_sys_map.ncd laser_surgery_sys.ngd laser_surgery_sys.pcf 
+par -w -intstyle ise -ol high -t 1 laser_surgery_sys_map.ncd laser_surgery_sys.ncd laser_surgery_sys.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml laser_surgery_sys.twx laser_surgery_sys.ncd -o laser_surgery_sys.twr laser_surgery_sys.pcf -ucf laserCon.ucf 
+bitgen -intstyle ise -f laser_surgery_sys.ut laser_surgery_sys.ncd 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc laserCon.ucf -p xc3s100e-cp132-5 laser_surgery_sys.ngc laser_surgery_sys.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o laser_surgery_sys_map.ncd laser_surgery_sys.ngd laser_surgery_sys.pcf 
+par -w -intstyle ise -ol high -t 1 laser_surgery_sys_map.ncd laser_surgery_sys.ncd laser_surgery_sys.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml laser_surgery_sys.twx laser_surgery_sys.ncd -o laser_surgery_sys.twr laser_surgery_sys.pcf -ucf laserCon.ucf 
+bitgen -intstyle ise -f laser_surgery_sys.ut laser_surgery_sys.ncd 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc laserCon.ucf -p xc3s100e-cp132-5 laser_surgery_sys.ngc laser_surgery_sys.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o laser_surgery_sys_map.ncd laser_surgery_sys.ngd laser_surgery_sys.pcf 
+par -w -intstyle ise -ol high -t 1 laser_surgery_sys_map.ncd laser_surgery_sys.ncd laser_surgery_sys.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml laser_surgery_sys.twx laser_surgery_sys.ncd -o laser_surgery_sys.twr laser_surgery_sys.pcf -ucf laserCon.ucf 
+bitgen -intstyle ise -f laser_surgery_sys.ut laser_surgery_sys.ncd 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc laserCon.ucf -p xc3s100e-cp132-5 laser_surgery_sys.ngc laser_surgery_sys.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o laser_surgery_sys_map.ncd laser_surgery_sys.ngd laser_surgery_sys.pcf 
+par -w -intstyle ise -ol high -t 1 laser_surgery_sys_map.ncd laser_surgery_sys.ncd laser_surgery_sys.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml laser_surgery_sys.twx laser_surgery_sys.ncd -o laser_surgery_sys.twr laser_surgery_sys.pcf -ucf laserCon.ucf 
+bitgen -intstyle ise -f laser_surgery_sys.ut laser_surgery_sys.ncd 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc laserCon.ucf -p xc3s100e-cp132-5 laser_surgery_sys.ngc laser_surgery_sys.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o laser_surgery_sys_map.ncd laser_surgery_sys.ngd laser_surgery_sys.pcf 
+par -w -intstyle ise -ol high -t 1 laser_surgery_sys_map.ncd laser_surgery_sys.ncd laser_surgery_sys.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml laser_surgery_sys.twx laser_surgery_sys.ncd -o laser_surgery_sys.twr laser_surgery_sys.pcf -ucf laserCon.ucf 
+xst -intstyle ise -ifn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.xst" -ofn "C:/Users/Atreyu/Documents/CS120A/Lab6/laser_surgery_sys.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc laserCon.ucf -p xc3s100e-cp132-5 laser_surgery_sys.ngc laser_surgery_sys.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o laser_surgery_sys_map.ncd laser_surgery_sys.ngd laser_surgery_sys.pcf 
+par -w -intstyle ise -ol high -t 1 laser_surgery_sys_map.ncd laser_surgery_sys.ncd laser_surgery_sys.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml laser_surgery_sys.twx laser_surgery_sys.ncd -o laser_surgery_sys.twr laser_surgery_sys.pcf -ucf laserCon.ucf 
+bitgen -intstyle ise -f laser_surgery_sys.ut laser_surgery_sys.ncd 

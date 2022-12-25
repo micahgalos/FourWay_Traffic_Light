@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Mar 07 12:32:47 2019
+# Process ID: 8272
+# Log file: F:/Lab6/planAhead_run_4/planAhead.log
+# Journal file: F:/Lab6/planAhead_run_4/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source F:/Lab6/pa.fromNetlist.tcl
+# create_project -name lab6 -dir "F:/Lab6/planAhead_run_4" -part xc3s100ecp132-4
+create_project: Time (s): elapsed = 00:00:11 . Memory (MB): peak = 417.520 ; gain = 80.434
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "F:/Lab6/laser_surgery_sys.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {F:/Lab6} }
+# set_property target_constrs_file "constraint.ucf" [current_fileset -constrset]
+Adding file 'F:/Lab6/constraint.ucf' to fileset 'constrs_1'
+# add_files [list {constraint.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s100ecp132-4

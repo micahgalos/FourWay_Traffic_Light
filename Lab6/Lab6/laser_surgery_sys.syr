@@ -1,0 +1,495 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Reading design: laser_surgery_sys.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "laser_surgery_sys.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "laser_surgery_sys"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-cp132
+
+---- Source Options
+Top Module Name                    : laser_surgery_sys
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "laser_surgery_sys.v" in library work
+Module <laser_surgery_sys> compiled
+Module <flopr> compiled
+Module <comparatorgen_st> compiled
+Module <fulladder_st> compiled
+Module <addergen_st> compiled
+Module <adder> compiled
+Module <timer_st> compiled
+No errors in compilation
+Analysis of file <"laser_surgery_sys.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <laser_surgery_sys> in library <work> with parameters.
+	NBITS = "00000000000000000000000000100000"
+	OFF = "00"
+	ON = "10"
+	START = "01"
+
+Analyzing hierarchy for module <timer_st> in library <work> with parameters.
+	NBITS = "00000000000000000000000000100000"
+
+Analyzing hierarchy for module <adder> in library <work> with parameters.
+	NBITS = "00000000000000000000000000100000"
+
+Analyzing hierarchy for module <flopr> in library <work> with parameters.
+	NBITS = "00000000000000000000000000100000"
+
+Analyzing hierarchy for module <addergen_st> in library <work> with parameters.
+	NBITS = "00000000000000000000000000100000"
+
+Analyzing hierarchy for module <comparatorgen_st> in library <work> with parameters.
+	NBITS = "00000000000000000000000000100000"
+
+Analyzing hierarchy for module <fulladder_st> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <laser_surgery_sys>.
+	NBITS = 32'sb00000000000000000000000000100000
+	OFF = 2'b00
+	ON = 2'b10
+	START = 2'b01
+Module <laser_surgery_sys> is correct for synthesis.
+ 
+Analyzing module <timer_st> in library <work>.
+	NBITS = 32'sb00000000000000000000000000100000
+Module <timer_st> is correct for synthesis.
+ 
+Analyzing module <adder> in library <work>.
+	NBITS = 32'sb00000000000000000000000000100000
+Module <adder> is correct for synthesis.
+ 
+Analyzing module <addergen_st> in library <work>.
+	NBITS = 32'sb00000000000000000000000000100000
+Module <addergen_st> is correct for synthesis.
+ 
+Analyzing module <fulladder_st> in library <work>.
+Module <fulladder_st> is correct for synthesis.
+ 
+Analyzing module <comparatorgen_st> in library <work>.
+	NBITS = 32'sb00000000000000000000000000100000
+Module <comparatorgen_st> is correct for synthesis.
+ 
+Analyzing module <flopr> in library <work>.
+	NBITS = 32'sb00000000000000000000000000100000
+Module <flopr> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <flopr>.
+    Related source file is "laser_surgery_sys.v".
+    Found 32-bit register for signal <iq>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <flopr> synthesized.
+
+
+Synthesizing Unit <comparatorgen_st>.
+    Related source file is "laser_surgery_sys.v".
+    Found 32-bit xor2 for signal <iresult>.
+Unit <comparatorgen_st> synthesized.
+
+
+Synthesizing Unit <fulladder_st>.
+    Related source file is "laser_surgery_sys.v".
+    Found 1-bit xor3 for signal <r>.
+    Summary:
+	inferred   1 Xor(s).
+Unit <fulladder_st> synthesized.
+
+
+Synthesizing Unit <addergen_st>.
+    Related source file is "laser_surgery_sys.v".
+Unit <addergen_st> synthesized.
+
+
+Synthesizing Unit <adder>.
+    Related source file is "laser_surgery_sys.v".
+Unit <adder> synthesized.
+
+
+Synthesizing Unit <timer_st>.
+    Related source file is "laser_surgery_sys.v".
+Unit <timer_st> synthesized.
+
+
+Synthesizing Unit <laser_surgery_sys>.
+    Related source file is "laser_surgery_sys.v".
+WARNING:Xst:646 - Signal <reset_count> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <reset> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <cnt_rst> is used but never assigned. This sourceless signal will be automatically connected to value 00001110111001101011001010000000.
+WARNING:Xst:653 - Signal <cnt_ini> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000000000000000.
+    Found finite state machine <FSM_0> for signal <current_state>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 5                                              |
+    | Inputs             | 2                                              |
+    | Outputs            | 1                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Power Up State     | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <laser_surgery_sys> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 1
+ 32-bit register                                       : 1
+# Xors                                                 : 64
+ 1-bit xor2                                            : 32
+ 1-bit xor3                                            : 32
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <current_state/FSM> on signal <current_state[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 10
+-------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Registers                                            : 32
+ Flip-Flops                                            : 32
+# Xors                                                 : 64
+ 1-bit xor2                                            : 32
+ 1-bit xor3                                            : 32
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <laser_surgery_sys> ...
+
+Optimizing unit <flopr> ...
+
+Optimizing unit <addergen_st> ...
+
+Optimizing unit <adder> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block laser_surgery_sys, actual ratio is 3.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 34
+ Flip-Flops                                            : 34
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : laser_surgery_sys.ngr
+Top Level Output File Name         : laser_surgery_sys
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 3
+
+Cell Usage :
+# BELS                             : 89
+#      GND                         : 1
+#      LUT2                        : 6
+#      LUT2_L                      : 4
+#      LUT3                        : 10
+#      LUT3_D                      : 1
+#      LUT3_L                      : 4
+#      LUT4                        : 39
+#      LUT4_D                      : 4
+#      LUT4_L                      : 11
+#      MUXCY                       : 8
+#      VCC                         : 1
+# FlipFlops/Latches                : 34
+#      FD                          : 18
+#      FDR                         : 15
+#      FDSE                        : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 2
+#      IBUF                        : 1
+#      OBUF                        : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-5 
+
+ Number of Slices:                       41  out of    960     4%  
+ Number of Slice Flip Flops:             34  out of   1920     1%  
+ Number of 4 input LUTs:                 79  out of   1920     4%  
+ Number of IOs:                           3
+ Number of bonded IOBs:                   3  out of     83     3%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 34    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 8.574ns (Maximum Frequency: 116.638MHz)
+   Minimum input arrival time before clock: 2.412ns
+   Maximum output required time after clock: 4.063ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 8.574ns (frequency: 116.638MHz)
+  Total number of paths / destination ports: 7923 / 49
+-------------------------------------------------------------------------
+Delay:               8.574ns (Levels of Logic = 10)
+  Source:            timerst/c2/iq_0 (FF)
+  Destination:       timerst/c2/iq_27 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: timerst/c2/iq_0 to timerst/c2/iq_27
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              6   0.514   0.572  timerst/c2/iq_0 (timerst/c2/iq_0)
+     LUT4_D:I3->LO         1   0.612   0.130  timerst/c1/nextval/blk[4].FA/Mxor_r_xo<0>11 (N80)
+     LUT3:I2->O           16   0.612   0.882  timerst/c1/nextval/blk[6].FA/Mxor_r_xo<0>11 (timerst/c1/nextval/N18)
+     LUT4_D:I3->O          5   0.612   0.541  timerst/c1/nextval/blk[18].FA/Mxor_r_xo<0>11 (timerst/c1/nextval/N3)
+     LUT4:I3->O            2   0.612   0.383  timerst/c1/nextval/blk[27].FA/Mxor_r_xo<0>1 (timerst/c1/inextq<27>)
+     LUT4:I3->O            1   0.612   0.000  timerst/c1/comparator/r_wg_lut<3> (timerst/c1/comparator/r_wg_lut<3>)
+     MUXCY:S->O            1   0.404   0.000  timerst/c1/comparator/r_wg_cy<3> (timerst/c1/comparator/r_wg_cy<3>)
+     MUXCY:CI->O           1   0.052   0.000  timerst/c1/comparator/r_wg_cy<4> (timerst/c1/comparator/r_wg_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  timerst/c1/comparator/r_wg_cy<5> (timerst/c1/comparator/r_wg_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  timerst/c1/comparator/r_wg_cy<6> (timerst/c1/comparator/r_wg_cy<6>)
+     MUXCY:CI->O          14   0.289   0.850  timerst/c1/comparator/r_wg_cy<7> (timer)
+     FDR:R                     0.795          timerst/c2/iq_27
+    ----------------------------------------
+    Total                      8.574ns (5.216ns logic, 3.358ns route)
+                                       (60.8% logic, 39.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              2.412ns (Levels of Logic = 2)
+  Source:            b (PAD)
+  Destination:       current_state_FSM_FFd2 (FF)
+  Destination Clock: clk rising
+
+  Data Path: b to current_state_FSM_FFd2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.106   0.426  b_IBUF (b_IBUF)
+     LUT2:I1->O            1   0.612   0.000  current_state_FSM_FFd2-In11 (current_state_FSM_FFd2-In1)
+     FDR:D                     0.268          current_state_FSM_FFd2
+    ----------------------------------------
+    Total                      2.412ns (1.986ns logic, 0.426ns route)
+                                       (82.3% logic, 17.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.063ns (Levels of Logic = 1)
+  Source:            current_state_FSM_FFd1 (FF)
+  Destination:       light (PAD)
+  Source Clock:      clk rising
+
+  Data Path: current_state_FSM_FFd1 to light
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDSE:C->Q             2   0.514   0.380  current_state_FSM_FFd1 (current_state_FSM_FFd1)
+     OBUF:I->O                 3.169          light_OBUF (light)
+    ----------------------------------------
+    Total                      4.063ns (3.683ns logic, 0.380ns route)
+                                       (90.6% logic, 9.4% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.42 secs
+ 
+--> 
+
+Total memory usage is 240480 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    6 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/Xilinx/Xilinx/lab6/lab6/laser_surgery_sys_isim_beh.exe" -prj "D:/Xilinx/Xilinx/lab6/lab6/laser_surgery_sys_beh.prj" "work.laser_surgery_sys" "work.glbl" 

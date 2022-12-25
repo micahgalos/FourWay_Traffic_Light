@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Atreyu\Documents\CS120A\Lab6\laser_surgery_sys.ncd
+OUTFILE=C:\Users\Atreyu\Documents\CS120A\Lab6\laser_surgery_sys.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=C:\Users\Atreyu\Documents\CS120A\Lab6
+LICENSE=WebPack
+USER_INFO=211659195_0_0_270

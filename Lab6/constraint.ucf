@@ -1,0 +1,10 @@
+# clock pins for basys board
+//Input:
+NET "clk" LOC= "B8";
+NET "b" LOC= "G12";
+
+//Output:
+NET "NORTH" LOC= "M5";
+NET "SOUTH" LOC= "M11";
+NET "EAST" LOC= "P7";
+NET "WEST" LOC= "P6";
